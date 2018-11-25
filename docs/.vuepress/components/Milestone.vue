@@ -1,8 +1,8 @@
 <template>
   <Timeline pending>
     <TimelineItem v-bind:color='choose_dot_color()' v-for="item in milestoneList" :key="item.id">
-      <span class="title"> {{ item.title }}</span>
-      <p class="content">
+      <span class="self-title"> {{ item.title }}</span>
+      <p class="self-content">
         {{ item.content }}
       </p>
 
@@ -100,21 +100,18 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-  .title {
+<style lang="scss">
+  .self-title {
     font-weight: bold;
     font-size: 16px;
   }
 
-  .content {
+  .self-content {
     font-size: 14px;
-    padding: 0 5px 5px 0px;
+    padding: 0 0px 0px 0px;
     line-height: 30px;
   }
 
-  .self-tag-group {
-    // margin: 15px 0 0 0;
-  }
   .self-tag {
     margin-right: 5px;
     font-size: 12px;

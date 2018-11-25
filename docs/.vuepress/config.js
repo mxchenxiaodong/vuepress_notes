@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/vuepress_notes/',
+  base: '/vuepress_notes_public/',
   title: 'MX-Don Notes',
   descript: '记录学习的过程....',
   markdown: {

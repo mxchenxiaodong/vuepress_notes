@@ -1,5 +1,5 @@
 
-# 实现一个Timeline组件
+# Timeline组件
 
 <!-- 预览图 -->
 <!-- ![预览图](./image/preview.png) -->
@@ -15,7 +15,7 @@
 主要参考了 `iview-ui`。
 实现的Timeline组件包含部分:
 
-- 头部-head（小圆圈 + 标题）
+- 头部-head（小圆圈）
 - 尾部-tail（竖着那条线）
 - 内容-content
 - 控制最后一个节点tail的显示与否
